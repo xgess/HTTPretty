@@ -1069,7 +1069,6 @@ class httprettized(object):
 
     def __exit__(self, exc_type, exc_value, traceback):
         httpretty.disable()
-        httpretty.reset()
 
 
 def httprettified(test):
